@@ -1,0 +1,14 @@
+特征选择报告
+========================================
+
+1. 皮尔逊相关系数分析
+   强相关特征: ['GenHlth', 'HighBP', 'BMI', 'DiffWalk', 'HighChol', 'Age', 'HeartDiseaseorAttack', 'PhysHlth', 'Stroke', 'CholCheck', 'HvyAlcoholConsump', 'PhysActivity', 'Education', 'Income']
+
+2. RFE递归特征消除
+   选中特征: ['BMI', 'Smoker', 'Fruits', 'GenHlth', 'MentHlth', 'PhysHlth', 'Sex', 'Age', 'Education', 'Income']
+
+3. SelectKBest
+   选中特征: ['HighBP', 'HighChol', 'CholCheck', 'BMI', 'Smoker', 'Stroke', 'HeartDiseaseorAttack', 'PhysActivity', 'HvyAlcoholConsump', 'GenHlth', 'PhysHlth', 'DiffWalk', 'Age', 'Education', 'Income']
+
+4. 最终特征子集
+   ['GenHlth', 'HighBP', 'Fruits', 'BMI', 'Age', 'Income', 'PhysHlth', 'MentHlth', 'PhysActivity', 'CholCheck', 'HvyAlcoholConsump', 'DiffWalk', 'Education', 'Smoker', 'HighChol', 'Stroke', 'HeartDiseaseorAttack', 'Sex']

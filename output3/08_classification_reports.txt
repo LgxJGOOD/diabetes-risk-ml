@@ -1,0 +1,52 @@
+
+========================================
+LogisticRegression
+========================================
+              precision    recall  f1-score   support
+
+     No Diab       0.94      0.64      0.76     37895
+    Pre-Diab       0.03      0.31      0.06       926
+        Diab       0.37      0.59      0.45      7017
+
+    accuracy                           0.63     45838
+   macro avg       0.45      0.51      0.43     45838
+weighted avg       0.84      0.63      0.70     45838
+
+========================================
+RandomForest
+========================================
+              precision    recall  f1-score   support
+
+     No Diab       0.94      0.67      0.78     37895
+    Pre-Diab       0.03      0.15      0.05       926
+        Diab       0.34      0.68      0.45      7017
+
+    accuracy                           0.66     45838
+   macro avg       0.44      0.50      0.43     45838
+weighted avg       0.83      0.66      0.72     45838
+
+========================================
+GradientBoosting
+========================================
+              precision    recall  f1-score   support
+
+     No Diab       0.85      0.97      0.91     37895
+    Pre-Diab       0.00      0.00      0.00       926
+        Diab       0.57      0.20      0.29      7017
+
+    accuracy                           0.84     45838
+   macro avg       0.47      0.39      0.40     45838
+weighted avg       0.79      0.84      0.80     45838
+
+========================================
+Stacking
+========================================
+              precision    recall  f1-score   support
+
+     No Diab       0.95      0.62      0.75     37895
+    Pre-Diab       0.03      0.36      0.06       926
+        Diab       0.39      0.57      0.46      7017
+
+    accuracy                           0.61     45838
+   macro avg       0.46      0.52      0.42     45838
+weighted avg       0.84      0.61      0.69     45838
